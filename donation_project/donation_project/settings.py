@@ -78,16 +78,16 @@ WSGI_APPLICATION = 'donation_project.wsgi.application'
 
 DATABASES = {
     'default': {
-    #     'ENGINE': 'django.db.backends.sqlite3',
-    #     'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    # }
-    'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'postgres',
-        'USER': 'postgres',
-        'PASSWORD': 'test1234',
-        'HOST': 'database-1.cvwulval7flk.eu-west-1.rds.amazonaws.com',
-        'port': '5432'
-}}
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    }
+    # 'ENGINE': 'django.db.backends.postgresql_psycopg2',
+    #     'NAME': 'postgres',
+    #     'USER': 'postgres',
+    #     'PASSWORD': 'test1234',
+    #     'HOST': 'database-1.cvwulval7flk.eu-west-1.rds.amazonaws.com',
+    #     'port': '5432'
+}
 # 'ENGINE': 'django.db.backends.postgresql_psycopg2',
 #         'NAME': 'postgres',
 #         'USER': 'postgres',

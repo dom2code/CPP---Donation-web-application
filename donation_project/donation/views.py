@@ -1,5 +1,3 @@
-
-from pyexpat import models
 from re import template
 from unicodedata import category
 from attr import attrs, fields
